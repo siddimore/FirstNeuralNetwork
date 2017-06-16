@@ -4,13 +4,12 @@ By building a neural network from the ground up, now I have a much better unders
 backpropagation and other concepts of NN.
 
 The data comes from the UCI Machine Learning Database.
-
-============================================================================================================================= 
+ 
 Problem Statement : Neural Network for predicting Bike Sharing Rides. Here NN will predict how many bikes 
 a company needs because if they have too few they are losing money from potential riders 
 and if they have too many they are wasting money on bikes that are just sitting around. 
 So NN will predict from the hisitorical data how many bikes they will need in the near future.
-============================================================================================================================= 
+
 Network Description: The network has two layers, a hidden layer and an output layer. The hidden layer 
 uses the sigmoid function for activations. The output layer has only one node and is used for the regression, 
 the output of the node is the same as the input of the node. That is, the activation function is f(x)=xf(x)=x . 
